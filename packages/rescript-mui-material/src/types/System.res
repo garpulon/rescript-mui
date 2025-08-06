@@ -76,6 +76,7 @@ module Value = {
     | @as("flex-end") FlexEnd
     | @as("self-start") SelfStart
     | @as("self-end") SelfEnd
+    | @as("space-between") SpaceBetween
     | @as("baseline") Baseline
 
     /* Global values */
@@ -229,4 +230,6 @@ type props = {
   listStylePosition?: Value.t,
   listStyleImage?: Value.t,
   textDecoration?: Value.t,
+  @as("&:hover")
+  onHover?: Value.t,
 }
