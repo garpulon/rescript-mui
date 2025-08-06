@@ -230,6 +230,4 @@ type props = {
   listStylePosition?: Value.t,
   listStyleImage?: Value.t,
   textDecoration?: Value.t,
-  @as("&:hover")
-  onHover?: Value.t,
 }
