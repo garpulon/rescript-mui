@@ -260,16 +260,13 @@ type eventHandlerProps = {
   onReset?: ReactEvent.Form.t => unit,
   onSubmit?: ReactEvent.Form.t => unit,
   onInvalid?: ReactEvent.Form.t => unit,
-
   // Focus Events
   onBlur?: ReactEvent.Focus.t => unit,
   onFocus?: ReactEvent.Focus.t => unit,
-
   // Keyboard Events
   onKeyDown?: ReactEvent.Keyboard.t => unit,
   onKeyPress?: ReactEvent.Keyboard.t => unit,
   onKeyUp?: ReactEvent.Keyboard.t => unit,
-
   // Mouse Events
   onContextMenu?: ReactEvent.Mouse.t => unit,
   onDrag?: ReactEvent.Mouse.t => unit,
@@ -284,7 +281,6 @@ type eventHandlerProps = {
   onMouseEnter?: ReactEvent.Mouse.t => unit,
   onMouseLeave?: ReactEvent.Mouse.t => unit,
   onMouseUp?: ReactEvent.Mouse.t => unit,
-
   // Touch Events
   onTouchCancel?: ReactEvent.Touch.t => unit,
   onTouchCancelCapture?: ReactEvent.Touch.t => unit,
@@ -294,7 +290,6 @@ type eventHandlerProps = {
   onTouchMoveCapture?: ReactEvent.Touch.t => unit,
   onTouchStart?: ReactEvent.Touch.t => unit,
   onTouchStartCapture?: ReactEvent.Touch.t => unit,
-
   // Pointer Events
   onGotPointerCapture?: ReactEvent.Pointer.t => unit,
   onGotPointerCaptureCapture?: ReactEvent.Pointer.t => unit,
