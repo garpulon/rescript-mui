@@ -63,7 +63,7 @@ type gridWrap =
 type gridSize =
   | @as("auto") Auto
   | @as("grow") Grow
-  | @as("number") Number(int)
+  | @as("int") Int(int)
 
 type breakpointSizes = {
   xs?: gridSize,
@@ -76,7 +76,7 @@ type breakpointSizes = {
 @unboxed
 type size =
   | String(string)
-  | Number(int)
+  | Int(int)
   | Breakpoint(breakpointSizes)
   | Auto
 
@@ -96,7 +96,7 @@ type rec gridSpacing =
 @unboxed
 type autoNumberBool =
   | @as("auto") Auto
-  | Number(int)
+  | Int(int)
   | @as(true) True
   | @as(false) False
 
